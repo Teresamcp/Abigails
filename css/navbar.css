@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+header {
+	background: red;
+	width: 100%
+	padding: 40px 0;
+	color: white;
+	text-align: center;
+}
+
+/*a {
+	text-decoration: none;
+	color: inherit;
+}
+*/
+#navbar-collapse ul {
+	background-color: white;
+	overflow: hidden;
+	color: gray;
+	padding: 0;
+	text-align: right;
+	margin: 0;
+}
+
+#navbar-collapse ul li {
+	display: inline-block;
+	padding: 20px;
+}
+
+#navbar-collapse ul li:hover {
+	background-color: gray;
+}
+
+@media screen and (max-width: 580px){
+	nav ul li{
+		box-sizing: border-box;
+		width: 100%;
+		padding: 15px;
+	}
+}
